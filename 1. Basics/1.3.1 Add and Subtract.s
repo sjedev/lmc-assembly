@@ -7,3 +7,13 @@
 06 ADD 91
 07 OUT
 08 HLT
+
+inp
+sta 90
+inp
+sta 91
+inp
+add 90
+add 91
+out
+hlt
