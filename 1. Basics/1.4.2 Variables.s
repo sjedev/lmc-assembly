@@ -23,27 +23,27 @@
 22 DAT 00
 23 DAT 00
 
-        	    inp
-        	    sta first
-        	    inp
-        	    sta second
-        	    inp
-        	    sta third
-        	    inp
-        	    sta fourth
-        	    lda first
-        	    add second
-        	    sta firstsecond
-        	    lda third
-        	    add fourth
-        	    sta thirdfourth
-        	    lda firstsecond
-        	    sub thirdfourth
-        	    out
-        	    hlt
-first   	    dat
-second  	    dat
-third   	    dat
-fourth  	    dat
+        	inp
+        	sta first
+        	inp
+        	sta second
+        	inp
+        	sta third
+        	inp
+        	sta fourth
+        	lda first
+        	add second
+        	sta firstsecond
+        	lda third
+        	add fourth
+        	sta thirdfourth
+        	lda firstsecond
+        	sub thirdfourth
+        	out
+        	hlt
+first   	dat
+second  	dat
+third   	dat
+fourth  	dat
 firstsecond 	dat
 thirdfourth 	dat
