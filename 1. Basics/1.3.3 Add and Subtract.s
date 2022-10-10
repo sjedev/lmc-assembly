@@ -8,3 +8,14 @@
 07 SUB 91
 08 OUT
 09 HLT
+
+inp
+sta 90
+inp
+sta 91
+sub 90
+out
+lda 90
+sub 91
+out
+hlt
