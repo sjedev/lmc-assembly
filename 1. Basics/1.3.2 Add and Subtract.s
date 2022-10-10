@@ -12,3 +12,18 @@
 11 SUB 93
 12 OUT
 13 HLT
+
+inp
+sta 90
+inp
+sta 91
+inp
+sta 92
+inp
+sta 93
+lda 90
+add 91
+add 92
+sub 93
+out
+hlt
