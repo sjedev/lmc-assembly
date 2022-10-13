@@ -36,6 +36,5 @@ loopstart lda count
           hlt
 count     dat 0
 two       dat 2
-          dat upto
 error     dat 69
 upto      dat
